@@ -1,0 +1,212 @@
+body{
+	background-color: rgb(230, 230, 230) ;
+	color: rgb(30, 30, 30);
+}
+h1{
+	color: rgb(54, 116, 181);
+	font-family: Courier,monospace;
+	font-weight: 800px;
+}
+
+#introduction img{
+	margin-bottom: 40px;
+}
+
+
+.insta-link {
+    display: inline-block;      /* Permet d'appliquer les propriétés de taille */
+    background-color: #578FCA;  /* Couleur de fond (ajuste selon l'image) */
+    color: #FFFFFF;             /* Couleur du texte */
+    padding: 10px 20px;         /* Espace interne pour agrandir le bouton */
+    border-radius: 50px;        /* Arrondit les bords pour un effet "pill" */
+    text-decoration: none;      /* Supprime le soulignement du lien */
+    font-size: 18px;            /* Taille du texte */
+    font-weight: bold;          /* Texte en gras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+    transition: background 0.3s; /* Animation fluide au survol */
+ 
+}
+
+/* Effet au survol */
+.insta-link:hover {
+    background-color: #14223A; /* Assombrit légèrement au survol */
+}
+
+
+
+.indeted-text{
+
+	margin-left: 0px;  /* Le texte commence à la marge */
+    text-align: center;   /* Aligne à gauche */
+    color: black;
+    font-family: Courier,monospace;
+}
+
+
+@media (max-whidth: 760px){
+	.container{
+		width: 600px;
+	}
+
+}
+@media (max-whidth: 500px){
+	.container{
+		width: 400px;
+	}
+
+}
+
+
+
+img {
+            width: 200px; /* Réduit la largeur de l'image */
+            height: auto; /* Conserve le ratio */
+            display: block; /* Pour centrer l'image */
+            margin: 0 auto; /* Centre horizontalement */
+        }
+.list-inline{
+  	display: flex; /* Utilise flexbox pour un meilleur contrôle */
+    justify-content: center; /* Centre les icônes horizontalement */
+    padding-left: 0; /* Supprime le padding gauche */
+    gap: 20px; /* Ajoute un espacement uniforme entre les éléments */
+  }
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+.list-inline a {
+    color: #578FCA; /* Applique la même couleur à tous les liens */
+    text-decoration: none; /* Supprime le soulignement */
+    display: flex; /* Assure l'alignement parfait */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    width: 70px; /* Définit une taille uniforme */
+    height: 70px;
+    border-radius: 50%; /* Forme arrondie */
+    background-color: white; /* Fond blanc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: all 0.3s ease-in-out; /* Animation fluide */
+}
+
+.list-inline a:hover {
+    background-color: #14223A; /* Change le fond au survol */
+    color: white; /* Change la couleur de l'icône */
+}
+
+
+
+.container{
+	width: 700px ;
+	margin: 40px auto;
+
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb'); /* Remplace par l'URL de ton image */
+    }
+
+
+header h1 {
+    color:  #578FCA;
+    font-size: 24px;  /* Ajuste selon la taille souhaitée */
+    font-weight: bold; /* Rend le texte en gras */
+    text-align: center; /* Centre le texte */
+
+    font-family: Arial, sans-serif; /* Vérifie la police utilisée pour 'Chengdu' */
+}
+.image-banner{
+   background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb'); /* Remplace par l'URL de ton image */
+    } 
+    
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.banner {
+    background-image: url(images/chendgu.jpg);
+    color: white;
+    padding: 150px 0px; /* Garde le padding si besoin */
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Active Flexbox */
+    flex-direction: column; /* Organise le contenu en colonne */
+    justify-content: flex-start; /* Place le texte plus haut */
+    align-items: center; /* Centre le texte horizontalement */
+    height: 300px; /* Définit une hauteur fixe */
+}
+
+.banner a:hover {
+    text-decoration: underline; /* Effet souligné au survol */
+}
+
+.banner a {
+    position: absolute;
+    top: 10px;  /* Place le lien tout en haut */
+    left: 10px; /* Place le lien tout à gauche */
+   
+    padding: 5px 10px;
+   
+   
+
+
+
+    display: inline-block;      /* Permet d'appliquer les propriétés de taille */
+    background-color: #578FCA;  /* Couleur de fond (ajuste selon l'image) */
+    color: #FFFFFF;             /* Couleur du texte */
+           /* Espace interne pour agrandir le bouton */
+    border-radius: 50px;        /* Arrondit les bords pour un effet "pill" */
+    text-decoration: none;      /* Supprime le soulignement du lien */
+    font-size: 18px;            /* Taille du texte */
+    font-weight: bold;          /* Texte en gras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+    transition: background 0.3s; /* Animation fluide au survol */
+}
+
+.banner h6{
+        color:  rgb(30, 90, 150);
+    font-family: Courier, monospace;
+    font-size: 100px; 
+    font-weight: bold;
+    margin: 0; /* Supprime les marges inutiles */
+    position: relative; /* Permet un ajustement plus précis */
+    top: -79px; /* Remonte le texte, ajuste la valeur selon le rendu */
+
+}
+
+
+
+  img {
+            width: 200px; /* Réduit la largeur de l'image */
+            height: auto; /* Conserve le ratio */
+        }
+        ul {
+            list-style: none; /* Supprime les puces */
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .custom-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .custom-button:hover {
+            background-color: #0056b3;
+        }
